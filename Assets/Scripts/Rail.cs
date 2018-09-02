@@ -13,7 +13,7 @@ public class Rail : MonoBehaviour
     void Start()
     {
         nodes = GetComponentsInChildren<Transform>();
-        Debug.Log(nodes.Length);
+        //Debug.Log(nodes.Length);
     }
 
     public Vector3 LinearPosition(int seg, float ratio)
