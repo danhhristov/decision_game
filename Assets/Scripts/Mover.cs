@@ -35,7 +35,6 @@ public class Mover : MonoBehaviour
             Debug.Log("transited" + transition);
             transition = 0;
             currentSeg++;
-
         }
         
         transform.position = rail.LinearPosition(currentSeg, transition);
