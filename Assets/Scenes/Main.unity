@@ -8499,11 +8499,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1200700871}
   m_Mesh: {fileID: 4300000, guid: 6ddffff9ec3c6e04a8c47394ed5116d8, type: 3}
---- !u!4 &1210562319 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: dca7e3d8d92978a4e81f8f8d23018524,
-    type: 3}
-  m_PrefabInternal: {fileID: 1146389383}
 --- !u!1 &1210853076
 GameObject:
   m_ObjectHideFlags: 0
@@ -9925,13 +9920,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1387783035}
-  m_LocalRotation: {x: 0.74895567, y: 0, z: 0, w: 0.66262007}
-  m_LocalPosition: {x: -0.0013, y: 0.111, z: 0.059}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.07104387, y: 0.7035288, z: -0.07104387, w: 0.7035288}
+  m_LocalPosition: {x: -4286.001, y: 2080.001, z: 1159.999}
+  m_LocalScale: {x: 10000.005, y: 10159.882, z: 13840.129}
   m_Children: []
-  m_Father: {fileID: 1210562319}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 97, y: 0, z: 0}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 180, y: 78.466995, z: 89.99999}
 --- !u!81 &1387783037
 AudioListener:
   m_ObjectHideFlags: 0
