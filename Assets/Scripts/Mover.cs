@@ -7,7 +7,7 @@ public class Mover : MonoBehaviour
 
     public Rail rail;
 
-    private int currentSeg;
+    private int currentSeg = 1;
     private float transition;
     private bool isCompleted;
 
@@ -25,18 +25,19 @@ public class Mover : MonoBehaviour
 
     public void Play()
     {
-        transition += Time.deltaTime * 2;
-        if (transition > 1)
-        {
-            transition = 0;
-            currentSeg++;
-        }
-        else if (transition < 0)
-        {
-            transition = 1;
-            currentSeg--;
+        if (rail.nodes.Length - 2 == currentSeg) {
+            return;
         }
 
+        transition += Time.deltaTime * 1/2;
+        if (transition > 1)
+        {
+            Debug.Log("transited" + transition);
+            transition = 0;
+            currentSeg++;
+
+        }
+        
         transform.position = rail.LinearPosition(currentSeg, transition);
     }
 }
