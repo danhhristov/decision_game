@@ -18234,7 +18234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a1414ca612736d4caf21282af404186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rail: {fileID: 577133425}
+  railUp: {fileID: 577133425}
+  railDown: {fileID: 2147260405}
 --- !u!1 &1668416361
 GameObject:
   m_ObjectHideFlags: 0
