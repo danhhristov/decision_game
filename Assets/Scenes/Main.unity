@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311938, g: 0.38074005, b: 0.35872707, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8499,11 +8499,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1200700871}
   m_Mesh: {fileID: 4300000, guid: 6ddffff9ec3c6e04a8c47394ed5116d8, type: 3}
---- !u!4 &1210562319 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: dca7e3d8d92978a4e81f8f8d23018524,
-    type: 3}
-  m_PrefabInternal: {fileID: 1146389383}
 --- !u!1 &1210853076
 GameObject:
   m_ObjectHideFlags: 0
@@ -8513,6 +8508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1210853077}
+  - component: {fileID: 1210853078}
   m_Layer: 0
   m_Name: sleeper
   m_TagString: Untagged
@@ -8576,6 +8572,17 @@ Transform:
   m_Father: {fileID: 325750105}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1210853078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1210853076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4ec153726c93d4484d97e70ef27318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1213550457
 GameObject:
   m_ObjectHideFlags: 0
@@ -9913,13 +9920,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1387783035}
-  m_LocalRotation: {x: 0.74895567, y: 0, z: 0, w: 0.66262007}
-  m_LocalPosition: {x: -0.0013, y: 0.111, z: 0.059}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.17102467, y: 0.6516338, z: -0.07251561, w: 0.7354356}
+  m_LocalPosition: {x: -1871.0005, y: 1381.1152, z: 3203.8826}
+  m_LocalScale: {x: 10175.619, y: 10528.725, z: 13295.683}
   m_Children: []
-  m_Father: {fileID: 1210562319}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 97, y: 0, z: 0}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 20.247002, y: 84.357, z: 7.116}
 --- !u!81 &1387783037
 AudioListener:
   m_ObjectHideFlags: 0
@@ -12032,6 +12039,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1667913891}
   m_Mesh: {fileID: 4300000, guid: 6ddffff9ec3c6e04a8c47394ed5116d8, type: 3}
+--- !u!1 &1667932720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dca7e3d8d92978a4e81f8f8d23018524,
+    type: 3}
+  m_PrefabInternal: {fileID: 1146389383}
+--- !u!114 &1667932723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1667932720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1414ca612736d4caf21282af404186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rail: {fileID: 1210853078}
 --- !u!1 &1668587530
 GameObject:
   m_ObjectHideFlags: 0
