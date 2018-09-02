@@ -25,9 +25,6 @@ public class Mover : MonoBehaviour
 
     public void Play()
     {
-        if (rail.nodes.Length - 2 == currentSeg) {
-            return;
-        }
 
         transition += Time.deltaTime * 1/2;
         if (transition > 1)
@@ -35,9 +32,13 @@ public class Mover : MonoBehaviour
             Debug.Log("transited" + transition);
             transition = 0;
             currentSeg++;
-
         }
-        
+
+        if (rail.nodes.Length - 1 == currentSeg)
+        {
+            return;
+        }
+
         transform.position = rail.LinearPosition(currentSeg, transition);
     }
 }
